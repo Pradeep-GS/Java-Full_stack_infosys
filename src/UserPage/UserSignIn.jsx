@@ -68,7 +68,7 @@ const UserSignIn = () => {
                         </div>
                         <button type="submit" className="mt-10 w-[80%] border-[1px] mx-9 bg-[var(--primary--color)] px-2 py-2 text-white">Sign In</button>
                     </form>
-                    <p className='mt-10 text-center'>If Already Registed ?  <Link to={'/login'} className='text-blue-500'>Log In</Link></p>
+                    <p className='mt-10 text-center'>If Already Registed ?  <Link to={'/user/login'} className='text-blue-500'>Log In</Link></p>
                 </div>
             </div>
 
